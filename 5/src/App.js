@@ -3,6 +3,7 @@ import { DrawComponenet } from './1_Component';
 import { Props } from './2_Props';
 import { State1 } from './3_state';
 import { REF } from './5_Ref';
+import { UseState } from './6_hook';
 
 export default class App extends React.Component {
     render(){
@@ -20,6 +21,7 @@ export default class App extends React.Component {
                 </ul>
 
                 <REF />
+                <UseState />
             </div>
         )
     }
