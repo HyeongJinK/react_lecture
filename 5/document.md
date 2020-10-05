@@ -108,3 +108,13 @@ static getDerivedStateFromProps(nextProps, prevProps)
 * useMemo
 * useCallback
 * useRef
+
+## useEffect
+
+### 마운트 될 때만 실행
+
+```javascript
+useEffect(() => {   
+    console.log("init");
+}, []);
+```
